@@ -3,7 +3,34 @@
 </script>
 
 <template>
-    <div>Home</div>
+  <section id="home">
+      <div>Home</div>
+      <br>
+      <br>
+    <br>
+<br>
+<br>
+<br>
+<br>
+<br></br>
+      <br>
+      <br>
+    <br>
+<br>
+<br>
+<br>
+<br>
+<br></br>
+      <br>
+      <br>
+    <br>
+<br>
+<br>
+<br>
+<br>
+<br></br>
+
+  </section>
 </template>
 
 <style lang="scss" scoped>

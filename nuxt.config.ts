@@ -6,4 +6,10 @@ export default defineNuxtConfig({
   app: {
     baseURL: process.env.NODE_ENV === 'production' ? '/strategy-toolkit/' : '/',
   },
+  css: [
+    '~/assets/css/main.css'
+  ],
+  modules: [
+    '@nuxtjs/tailwindcss',
+  ],
 })
