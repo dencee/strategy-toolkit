@@ -3,34 +3,33 @@
 </script>
 
 <template>
-  <section id="resources">
-    <div>Resources</div>
+  <section id="home">
+      <div>Home</div>
+      <br>
+      <br>
+    <br>
+<br>
+<br>
+<br>
+<br>
+<br></br>
+      <br>
+      <br>
+    <br>
+<br>
+<br>
+<br>
+<br>
+<br></br>
+      <br>
+      <br>
+    <br>
+<br>
+<br>
+<br>
+<br>
+<br></br>
 
-
-          <br>
-      <br>
-    <br>
-<br>
-<br>
-<br>
-<br>
-<br></br>
-      <br>
-      <br>
-    <br>
-<br>
-<br>
-<br>
-<br>
-<br></br>
-      <br>
-      <br>
-    <br>
-<br>
-<br>
-<br>
-<br>
-<br></br>
   </section>
 </template>
 
