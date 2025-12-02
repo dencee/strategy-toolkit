@@ -3,7 +3,7 @@
 </script>
 
 <template>
-    <div>Best Practices 2</div>
+    <div>Best Practices 3</div>
 </template>
 
 <style lang="scss" scoped>
