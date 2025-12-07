@@ -12,7 +12,7 @@
         <nav class="mx-auto flex max-w-5xl items-center justify-between p-4">
           <ul class=" hidden md:flex items-center space-x-8">
             <li v-for="item in nav" :key="item.to">
-              <NuxtLink :to="item.to" external class="transition-colors" :class="activeSection === item.to
+              <NuxtLink :to="'/' + item.to" class="transition-colors" :class="activeSection === item.to
                 ? 'text-blue-600 dark:text-blue-400 font-semibold'
                 : 'text-gray-700 dark:text-slate-300 hover:text-blue-500 dark:hover:text-blue-300'">
                 {{ item.label }}
@@ -70,12 +70,12 @@
               class="absolute top-full left-0 w-full bg-white/95 dark:bg-slate-900/95 backdrop-blur-md border-b border-slate-200 dark:border-slate-700 shadow-lg md:hidden">
               <ul class="flex flex-col p-4 space-y-4">
                 <li v-for="item in nav" :key="item.to">
-                  <a :href="item.to"
+                  <NuxtLink :to="'/' + item.to"
                     class="block text-lg py-2 px-4 rounded-lg hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors"
                     :class="activeSection === item.to ? 'text-blue-600 dark:text-blue-400 font-semibold' : 'text-slate-700 dark:text-slate-300'"
                     @click="isMobileMenuOpen = false">
                     {{ item.label }}
-                  </a>
+                  </NuxtLink>
                 </li>
               </ul>
             </div>
