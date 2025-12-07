@@ -12,11 +12,11 @@
         <nav class="mx-auto flex max-w-5xl items-center justify-between p-4">
           <ul class=" hidden md:flex items-center space-x-8">
             <li v-for="item in nav" :key="item.to">
-              <a :href="item.to" class="transition-colors" :class="activeSection === item.to
+              <NuxtLink :to="{path: '/', hash: item.to}" external class="transition-colors" :class="activeSection === item.to
                 ? 'text-blue-600 dark:text-blue-400 font-semibold'
                 : 'text-gray-700 dark:text-slate-300 hover:text-blue-500 dark:hover:text-blue-300'">
                 {{ item.label }}
-              </a>
+              </NuxtLink>
             </li>
           </ul>
         </nav>
