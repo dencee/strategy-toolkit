@@ -5,7 +5,8 @@
       <div class="flex items-center justify-between h-16">
         <div>
           <NuxtLink to="/" class="flex items-cener space-x-2 font-bold text-lg">
-            Template
+            <img v-if="isDark" src="~/assets/images/te922-logo-white.png" alt="TE922 Logo" class="h-10">
+            <img v-else src="~/assets/images/te922-logo-black.png" alt="TE922 Logo" class="h-10">
           </NuxtLink>
         </div>
         <nav class="mx-auto flex max-w-5xl items-center justify-between p-4">
@@ -25,10 +26,18 @@
         bg-slate-100 dark:bg-slate-800
         text-slate-700 dark:text-slate-200
         hover:bg-slate-200 dark:hover:bg-slate-700 transition hover:scale-110">
-            <svg v-if="isDark" class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true"
-              xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-              <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                d="M12 5V3m0 18v-2M7.05 7.05 5.636 5.636m12.728 12.728L16.95 16.95M5 12H3m18 0h-2M7.05 16.95l-1.414 1.414M18.364 5.636 16.95 7.05M16 12a4 4 0 1 1-8 0 4 4 0 0 1 8 0Z" />
+            <svg v-if="isDark" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+              class="lucide lucide-sun ">
+              <circle cx="12" cy="12" r="4"></circle>
+              <path d="M12 2v2"></path>
+              <path d="M12 20v2"></path>
+              <path d="m4.93 4.93 1.41 1.41"></path>
+              <path d="m17.66 17.66 1.41 1.41"></path>
+              <path d="M2 12h2"></path>
+              <path d="M20 12h2"></path>
+              <path d="m6.34 17.66-1.41 1.41"></path>
+              <path d="m19.07 4.93-1.41 1.41"></path>
             </svg>
             <svg v-else class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true"
               xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
