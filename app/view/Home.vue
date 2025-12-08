@@ -11,7 +11,7 @@ const { isDark } = useTheme()
         class="w-full h-48 md:h-64 object-cover" :class="{ 'opacity-50': isDark }">
     </div>
 
-    <div class="container-max section-padding relative z-20">
+    <div class="container-max px-4 sm:px-6 lg:px-8 pb-16 lg:pb-24 pt-2 relative z-20">
       <div class="flex flex-wrap justify-center gap-3 mb-4">
         <span
           class="inline-block px-4 py-2 rounded-full bg-orange-300 text-orange-800 dark:bg-orange-900 dark:text-orange-200 text-sm font-medium">New
