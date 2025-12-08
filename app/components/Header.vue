@@ -94,7 +94,6 @@ const nav = [
   { label: 'Problem', to: '#problem' },
   { label: 'Resources', to: '#resources' },
   { label: 'Best Practices', to: '#best-practices' },
-  { label: 'About', to: '#about' },
 ]
 
 const activeSection = ref('#home');

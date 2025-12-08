@@ -67,9 +67,6 @@
           </div>
         </div>
       </div>
-      <div class="flex justify-center pt-4">
-        <ScrollDownButton target="#about" />
-      </div>
     </div>
   </section>
 </template>
