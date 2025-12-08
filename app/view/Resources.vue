@@ -29,8 +29,8 @@
             </p>
           </div>
           <div class="text-gray-600 dark:text-gray-300 mb-4">
-            <p>Simmons defines pacing as, "the rate at which instructional activities occur or at which specific
-              'learning trials' are presented to the student."
+            <p>Simmons defines pacing as, <strong>"the rate at which instructional activities occur or at which specific
+              'learning trials' are presented to the student."</strong>
               Too slow and students become bored and disengaged. Too fast and students may become confused and
               discouraged.
               He identifies <em>teacher</em> behaviors as one of the primary culprits of pacing problems.
@@ -50,9 +50,9 @@
             <h4 class="font-semibold text-gray-900 dark:text-white mt-4 mb-2">Allocation of time</h4>
             <p>
               Simmons identifies that written time allocations for propsed activies is often lacking, but critially important to gauge the true amount of time for a lesson.
-              When a good estimate of the true amount of time is identified, identifying the primary Learning Target is next.
+              When a good estimate of the true amount of time is identified, identifying the <strong>primary Learning Target</strong> is next.
               A primary Learning Target clearly describes what you want students to know and be able to do by the end of the lesson.
-              allocating time to activities that are most aligned with the lesson's primary learning target is the most important because it informs the educator on which activities should be
+              Allocating time to activities that are most aligned with the lesson's primary learning target is the most important because it informs the educator on which activities should be
               prioritized and placed earlier in the lesson with enough time preferentially allocated.
             </p>
             <h4 class="font-semibold text-gray-900 dark:text-white mt-4 mb-2">Careful Questioning</h4>

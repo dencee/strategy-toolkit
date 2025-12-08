@@ -14,17 +14,17 @@ const { isDark } = useTheme()
     <div class="container-max px-4 sm:px-6 lg:px-8 pb-16 lg:pb-24 pt-2 relative z-20">
       <div class="flex flex-wrap justify-center gap-3 mb-4">
         <span
-          class="inline-block px-4 py-2 rounded-full bg-orange-300 text-orange-800 dark:bg-orange-900 dark:text-orange-200 text-sm font-medium">New
-          Teacher</span>
+          class="inline-block px-4 py-2 rounded-full bg-orange-300 text-orange-800 dark:bg-orange-900 dark:text-orange-200 text-sm font-medium">
+          New Teacher</span>
         <span
-          class="inline-block px-4 py-2 rounded-full bg-blue-300 text-blue-800 dark:bg-blue-900 dark:text-blue-200 text-sm font-medium">Lesson
-          Pacing</span>
+          class="inline-block px-4 py-2 rounded-full bg-blue-300 text-blue-800 dark:bg-blue-900 dark:text-blue-200 text-sm font-medium">
+          Lesson Pacing</span>
         <span
-          class="inline-block px-4 py-2 rounded-full bg-green-300 text-green-800 dark:bg-green-900 dark:text-green-200 text-sm font-medium">Instructional
-          Design</span>
+          class="inline-block px-4 py-2 rounded-full bg-green-300 text-green-800 dark:bg-green-900 dark:text-green-200 text-sm font-medium">
+          Instructional Design</span>
         <span
-          class="inline-block px-4 py-2 rounded-full bg-purple-300 text-purple-800 dark:bg-purple-900 dark:text-purple-200 text-sm font-medium">Time
-          Management</span>
+          class="inline-block px-4 py-2 rounded-full bg-purple-300 text-purple-800 dark:bg-purple-900 dark:text-purple-200 text-sm font-medium">
+          Time Management</span>
       </div>
       <div class="text-center max-w-4xl mx-auto">
         <h1 class="text-4xl sm:text-5xl lg:text-6xl font-bold text-gray-900 dark:text-white mb-6">

@@ -12,7 +12,7 @@
         </p>
       </div>
       <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">
-        <StrategyCard title="Prevention">
+        <StrategyCard title="Prevention" textColor="text-green-800 dark:text-green-200">
           <p>Modify lesson plan</p>
           <ul class="list-disc list-inside pl-6 -indent-6">
             <li>Reduce lesson volume</li>
@@ -20,14 +20,14 @@
             <li>Improve lesson quality</li>
           </ul>
         </StrategyCard>
-        <StrategyCard title="Minimize Impact">
+        <StrategyCard title="Minimize Impact" textColor="text-red-800 dark:text-red-200">
           <p>Front-load lessons</p>
           <ul class="list-disc list-inside pl-6 -indent-6">
             <li>Most important things first</li>
             <li>Less important things last</li>
           </ul>
         </StrategyCard>
-        <StrategyCard title="Problem Handling">
+        <StrategyCard title="Problem Handling" textColor="text-blue-800 dark:text-blue-200">
           <p>Modify lesson delivery</p>
           <ul class="list-disc list-inside pl-6 -indent-6">
             <li>Set/Use a timer</li>
@@ -38,26 +38,33 @@
 
       <div class="space-y-8">
         <div class="bg-white dark:bg-dark-700 rounded-lg p-6 shadow-sm hover:shadow-md transition-shadow">
-          <h4 class="font-semibold text-gray-900 dark:text-white mt-2 mb-2">Minimization: Front-Loading</h4>
+          <h4 class="font-semibold text-gray-900 dark:text-white mt-2 mb-2">
+            <span class="text-red-800 dark:text-red-200 text-decoration-underline">Minimization:</span>
+            Front-Loading</h4>
           <div class="text-gray-600 dark:text-gray-300 mb-4">
             <p>Simmons claims that identifying the lesson's primary learning target is the most important because it
               informs the educator on which activities should be prioritized.
               This means that the most important concepts and activities should be placed earlier in the lesson so if pacing problems do arise,
               they will not critically impact the main goal of the lesson.
             </p>
-            <h4 class="font-semibold text-gray-900 dark:text-white mt-4 mb-2">Problem Handling: Read your Audience and Adjust</h4>
+            <h4 class="font-semibold text-gray-900 dark:text-white mt-4 mb-2">
+              <span class="text-blue-800 dark:text-blue-200 text-decoration-underline">Problem Handling</span>:
+              Read your Audience and Adjust</h4>
             <p>
               Simmons highlights the importance of paying close attention to student behavior during the lesson for clues as to whether the pacing is too fast or too slow.
               If a teacher notices that students look confused, seem inattentive, or preoccupied, it is a sign that the pacing is not right and the teacher should adjust.
               Pacing that is too fast is usually correlated with instruction outside of a student's Zone of Proximal Development (ZPD), which is where students are able to learn most effectively.
             </p>
-            <h4 class="font-semibold text-gray-900 dark:text-white mt-4 mb-2">Prevention: Chunking to Reduce Cognitive Load</h4>
+            <h4 class="font-semibold text-gray-900 dark:text-white mt-4 mb-2">
+              <span class="text-green-800 dark:text-green-200 font-bold">Prevention</span>:
+              Chunking to Reduce Cognitive Load</h4>
             <p>
               When the primary learning target-aligned activities are determined, the lesson can be assessed for possible chunking so that the learning objects can be understood more readily while also fitting into the allotted time.
               The practice of chunking, or breaking down larger concepts into smaller components, connects with cognitive load theory, which states that large, complex topics are difficult to
               retain because of limited working memory.
             </p>
-            <h4 class="font-semibold text-gray-900 dark:text-white mt-4 mb-2">Prevention and Minimization: Cognitive Load and Lesson Volume</h4>
+            <h4 class="font-semibold text-gray-900 dark:text-white mt-4 mb-2"><span class="text-green-800 dark:text-green-200 font-bold">Prevention</span> and
+              <span class="text-red-800 dark:text-red-200 font-bold">Minimization:</span> Cognitive Load and Lesson Volume</h4>
             <p>
               Rather than overloading a lesson with content and risk exceeding a student's cognitive load, Simmons recommends including time in the lesson plan for formative assessments to check for understanding.
               This can help with pacing indirectly by capturing student thinking early on in the lesson and giving the educator the opportunity to refocus student learning if necessary.
