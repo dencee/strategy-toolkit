@@ -6,36 +6,8 @@
   <section id="resources" class="section-padding bg-white dark:bg-dark-900">
     <div class="container-max">
       <div class="text-center pb-8" style="opacity: 1; transform: none;">
-        <h2 class="text-3xl sm:text-4xl font-bold text-gray-900 dark:text-white mb-4">Solution Strategies</h2>
-        <p class="text-justify text-lg text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">
-          I thought of 3 general solution strategies to handle pacing problems
-        </p>
+        <h2 class="text-3xl sm:text-4xl font-bold text-gray-900 dark:text-white mb-4">Resource Investigation</h2>
       </div>
-      <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">
-        <StrategyCard title="Prevention">
-          <p>Modify lesson plan</p>
-          <ul class="list-disc list-inside pl-6 -indent-6">
-            <li>Reduce lesson volume</li>
-            <li>Reorganize lesson</li>
-            <li>Improve lesson quality</li>
-          </ul>
-        </StrategyCard>
-        <StrategyCard title="Minimize Impact">
-          <p>Front-load lessons</p>
-          <ul class="list-disc list-inside pl-6 -indent-6">
-            <li>Most important things first</li>
-            <li>Less important things last</li>
-          </ul>
-        </StrategyCard>
-        <StrategyCard title="Problem Handling">
-          <p>Modify lesson delivery</p>
-          <ul class="list-disc list-inside pl-6 -indent-6">
-            <li>Set/Use a timer</li>
-            <li>Continuation threshold</li>
-          </ul>
-        </StrategyCard>
-      </div>
-
       <div class="space-y-8">
         <div class="bg-white dark:bg-dark-700 rounded-lg p-6 shadow-sm hover:shadow-md transition-shadow"
           style="opacity: 1; transform: none;">
@@ -51,37 +23,48 @@
                 <line x1="10" y1="14" x2="21" y2="3" />
               </svg>
             </a>
-            <p>by: Craig simmons</p>
+            <p>by:
+              <a href="https://www.ascd.org/people/craig-simmons" target="_blank"
+                class="text-blue-600 dark:text-blue-400 hover:underline inline-flex items-center gap-2">Craig
+                Simmons</a>
+            </p>
           </div>
           <div class="text-gray-600 dark:text-gray-300 mb-4">
-            <p>Simmons claims that identifying the lesson's primary learning target is the most important because it
-              informs
-              the educator on which activities should be prioritized and placed earlier in the lesson with enough time
-              preferentially allocated.
+            <p>Simmons defines pacing as, "the rate at which instructional activities occur or at which specific
+              'learning trials' are presented to the student."
+              Too slow and students become bored and disengaged. Too fast and students may become confused and
+              discouraged.
+              He identifies <em>teacher</em> behaviors as one of the primary culprits of pacing problems.
             </p>
-            <h4 class="font-semibold text-gray-900 dark:text-white mt-4 mb-2">Prevention: Chunking to Reducing the
-              Cognitive Load</h4>
+            <h4 class="font-semibold text-gray-900 dark:text-white mt-4 mb-2">Not all instructional time is created equal</h4>
             <p>
-              When the primary learning target-aligned activities are determined, the lesson can
-              be assessed for possible chunking so that the learning objects can be understood more readily while also
-              fitting into the allotted time. The practice of chunking, or breaking down larger concepts into smaller
-              components, connects with cognitive load theory, which states that large, complex topics are difficult to
-              retain because of limited working memory.
+              Simmons cites a six year study deconstructing <em>academic learning time</em> into
+              several variables, three of which are:
             </p>
-            <h4 class="font-semibold text-gray-900 dark:text-white mt-4 mb-2">Prevention and Minimization: Assessments over Volume</h4>
+            <ul class="list-disc list-inside pt-2 pb-2">
+              <li>Allocated time</li>
+              <li>Instructional time</li>
+              <li>Engaged time</li>
+            </ul>
+            <p>Simmons argues Engaged time, where students are putting forth cognitive effort and actively
+              participating, should be maximized for optimal learning. </p>
+            <h4 class="font-semibold text-gray-900 dark:text-white mt-4 mb-2">Allocation of time</h4>
             <p>
-              Building upon that theory, Simmons also warns against overloading a
-              lesson and recommends including time in the lesson plan for formative assessments to check for
-              understanding.
-              This can help with pacing indirectly by capturing student thinking early on in the lesson and giving the
-              educator the opportunity to refocus student learning if necessary. Without periodic checks for
-              understanding,
-              student confusion can grow, making the educator's task to reestablish understanding much larger and time
-              consuming.
+              Simmons identifies that written time allocations for propsed activies is often lacking, but critially important to gauge the true amount of time for a lesson.
+              When a good estimate of the true amount of time is identified, identifying the primary Learning Target is next.
+              A primary Learning Target clearly describes what you want students to know and be able to do by the end of the lesson.
+              allocating time to activities that are most aligned with the lesson's primary learning target is the most important because it informs the educator on which activities should be
+              prioritized and placed earlier in the lesson with enough time preferentially allocated.
             </p>
+            <h4 class="font-semibold text-gray-900 dark:text-white mt-4 mb-2">Careful Questioning</h4>
             <p>
-              Adapting this into my future lesson planning, I will look for opportunities where I can break down
-              complex concepts into smaller steps.
+              Simmons points out that poorly scripted questions are a common cause of lost time in a lesson.
+              Verbose, ambiguous, or nebulous questions introduce the possibility for time loss as the teacher tries to refine questions <em>during</em> instruction.
+            </p>
+            <h4 class="font-semibold text-gray-900 dark:text-white mt-4 mb-2">Assessments over Volume</h4>
+            <p>
+              Overloading a lesson at the cost of formative assesments is a big mistake according to Simmons.
+              It undermines the importance of the primary learning objective by prioritizing time to less important objectives.
             </p>
           </div>
         </div>
