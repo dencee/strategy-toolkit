@@ -1,3 +1,34 @@
+<script setup>
+import { ref, onMounted, watch } from 'vue'
+
+
+const isMobileMenuOpen = ref(false);
+
+const { navLinks, activeSection } = useNav();
+const { isDark, toggleDark, initTheme } = useTheme()
+
+// Only touch window/document on client
+onMounted(() => {
+  initTheme()
+  const observer = new IntersectionObserver(
+    (entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          activeSection.value = `#${entry.target.id}`
+        }
+      })
+    },
+    {
+      rootMargin: '-40% 0px -40% 0px',
+    }
+  )
+
+  const sections = document.querySelectorAll('section[id]')
+  sections.forEach((section) => observer.observe(section))
+})
+
+</script>
+
 <template>
   <header
     class="sticky top-0 z-50 bg-white/80 dark:bg-slate-900/80 backdrop-blur-md shadow-sm dark:border-b dark:border-slate-700">
@@ -12,7 +43,7 @@
         </div>
         <nav class="mx-auto flex max-w-5xl items-center justify-between p-4">
           <ul class=" hidden md:flex items-center space-x-8">
-            <li v-for="item in nav" :key="item.to">
+            <li v-for="item in navLinks" :key="item.to">
               <NuxtLink :to="'/' + item.to" class="transition-colors" :class="activeSection === item.to
                 ? 'text-blue-600 dark:text-blue-400 font-semibold'
                 : 'text-gray-700 dark:text-slate-300 hover:text-blue-500 dark:hover:text-blue-300'">
@@ -70,7 +101,7 @@
             <div v-if="isMobileMenuOpen"
               class="absolute top-full left-0 w-full bg-white/95 dark:bg-slate-900/95 backdrop-blur-md border-b border-slate-200 dark:border-slate-700 shadow-lg md:hidden">
               <ul class="flex flex-col p-4 space-y-4">
-                <li v-for="item in nav" :key="item.to">
+                <li v-for="item in navLinks" :key="item.to">
                   <NuxtLink :to="'/' + item.to"
                     class="block text-lg py-2 px-4 rounded-lg hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors"
                     :class="activeSection === item.to ? 'text-blue-600 dark:text-blue-400 font-semibold' : 'text-slate-700 dark:text-slate-300'"
@@ -86,45 +117,6 @@
     </div>
   </header>
 </template>
-
-<script setup>
-import { ref, onMounted, watch } from 'vue'
-
-const nav = [
-  { label: 'Home', to: '#home' },
-  { label: 'Problem', to: '#problem' },
-  { label: 'Resources', to: '#resources' },
-  { label: 'Best Practices', to: '#best-practices' },
-]
-
-const activeSection = ref('#home');
-const isMobileMenuOpen = ref(false);
-
-const { isDark, toggleDark, initTheme } = useTheme()
-
-// Only touch window/document on client
-onMounted(() => {
-  initTheme()
-
-  const observer = new IntersectionObserver(
-    (entries) => {
-      entries.forEach((entry) => {
-        if (entry.isIntersecting) {
-          activeSection.value = `#${entry.target.id}`
-        }
-      })
-    },
-    {
-      rootMargin: '-40% 0px -40% 0px',
-    }
-  )
-
-  const sections = document.querySelectorAll('section[id]')
-  sections.forEach((section) => observer.observe(section))
-})
-
-
-</script>
 
 <style scoped>
 header {
