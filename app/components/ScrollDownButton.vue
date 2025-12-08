@@ -17,7 +17,7 @@ const computedTarget = computed(() => {
 </script>
 
 <template>
-    <div class="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
+    <div class="animate-bounce">
         <NuxtLink :to="computedTarget"
             class="text-gray-400 hover:text-primary-600 dark:text-gray-500 dark:hover:text-primary-400 transition-colors">
             <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none"

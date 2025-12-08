@@ -92,8 +92,8 @@ import { ref, onMounted, watch } from 'vue'
 const nav = [
   { label: 'Home', to: '#home' },
   { label: 'Problem', to: '#problem' },
-  { label: 'Best Practices', to: '#best-practices' },
   { label: 'Resources', to: '#resources' },
+  { label: 'Best Practices', to: '#best-practices' },
   { label: 'About', to: '#about' },
 ]
 

@@ -13,8 +13,8 @@ import Problem from '@/view/Problem.vue';
     <main>
       <Home></Home>
       <Problem></Problem>
-      <BestPractices></BestPractices>
       <Resources></Resources>
+      <BestPractices></BestPractices>
       <About></About>
     </main>
   </div>
