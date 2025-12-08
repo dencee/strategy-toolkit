@@ -4,7 +4,7 @@ const { isDark } = useTheme()
 
 <template>
   <section id="home"
-    class="min-h-screen flex items-center justify-center relative overflow-hidden bg-gradient-to-br from-white via-blue-50 to-indigo-100 dark:from-dark-900 dark:via-dark-800 dark:to-dark-700 z-0">
+    class="min-h-screen flex items-center justify-center relative overflow-hidden bg-gradient-to-br from-white via-blue-50 to-indigo-100 dark:from-dark-900 dark:via-dark-800 dark:to-dark-700">
 
     <div class="absolute top-0 left-0 w-full mt-8 z-0">
       <img src="~/assets/images/hero-traffic-lights.png" alt="Hero Traffic Lights"
@@ -27,8 +27,7 @@ const { isDark } = useTheme()
           Management</span>
       </div>
       <div class="text-center max-w-4xl mx-auto">
-        <h1 class="text-4xl sm:text-5xl lg:text-6xl font-bold text-gray-900 dark:text-white mb-6"
-          style="opacity: 1; transform: none;">
+        <h1 class="text-4xl sm:text-5xl lg:text-6xl font-bold text-gray-900 dark:text-white mb-6">
           Problem of Practice:
           <span class="block text-2xl sm:text-3xl font-medium text-gray-600 dark:text-gray-300 mt-4">
             Instructional Pacing!

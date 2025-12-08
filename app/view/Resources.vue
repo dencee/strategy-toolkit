@@ -5,13 +5,12 @@
 <template>
   <section id="resources" class="section-padding bg-white dark:bg-dark-900">
     <div class="container-max">
-      <div class="text-center pb-8" style="opacity: 1; transform: none;">
+      <div class="text-center pb-8">
         <h2 class="text-3xl sm:text-4xl font-bold text-gray-900 dark:text-white mb-4">Resource Investigation</h2>
       </div>
       <div class="space-y-8">
-        <div class="bg-white dark:bg-dark-700 rounded-lg p-6 shadow-sm hover:shadow-md transition-shadow"
-          style="opacity: 1; transform: none;">
-          <div class="flex flex-col lg:flex-row lg:items-center lg:justify-between mb-4">
+        <div class="bg-white dark:bg-dark-700 rounded-lg p-6 shadow-sm hover:shadow-md transition-shadow">
+          <div class="mb-4">
             <a href="https://www.ascd.org/el/articles/pacing-lessons-for-optimal-learning" target="_blank"
               class="text-blue-600 dark:text-blue-400 hover:underline inline-flex items-center gap-2">
               <span>Pacing Lessons for Optimal Learning</span>
