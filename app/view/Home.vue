@@ -4,14 +4,14 @@ const { isDark } = useTheme()
 
 <template>
   <section id="home"
-    class="min-h-screen flex items-center justify-center relative overflow-hidden bg-gradient-to-br from-white via-blue-50 to-indigo-100 dark:from-dark-900 dark:via-dark-800 dark:to-dark-700">
+    class="min-h-screen flex flex-col relative overflow-hidden bg-gradient-to-br from-white via-blue-50 to-indigo-100 dark:from-dark-900 dark:via-dark-800 dark:to-dark-700">
 
-    <div class="absolute top-0 left-0 w-full mt-8 z-0">
+    <div class="w-full mt-8 z-0">
       <img src="~/assets/images/hero-traffic-lights.png" alt="Hero Traffic Lights"
         class="w-full h-48 md:h-64 object-cover" :class="{ 'opacity-50': isDark }">
     </div>
 
-    <div class="container-max section-padding relative z-20 mt-12 md:mt-18">
+    <div class="container-max section-padding relative z-20">
       <div class="flex flex-wrap justify-center gap-3 mb-4">
         <span
           class="inline-block px-4 py-2 rounded-full bg-orange-300 text-orange-800 dark:bg-orange-900 dark:text-orange-200 text-sm font-medium">New
