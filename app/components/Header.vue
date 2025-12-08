@@ -6,7 +6,7 @@
         <div>
           <NuxtLink to="/" class="flex items-cener space-x-2 font-bold text-lg">
             <img src="~/assets/images/te922-logo.png" alt="TE922 Logo" class="h-12" :style="isDark ? 'background-color: rgb(37, 66, 132); opacity: 0.6;' : ''">
-            <img v-if="isDark" src="~/assets/images/te922-26-logo-white.png" alt="TE922" class="h-12">
+            <img v-if="isDark" src="~/assets/images/te922-logo-white.png" alt="TE922" class="h-12">
             <img v-else src="~/assets/images/te922-logo-black.png" alt="TE922" class="h-12">
           </NuxtLink>
         </div>
