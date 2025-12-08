@@ -5,7 +5,7 @@
 <template>
   <section id="best-practices" class="section-padding bg-white dark:bg-dark-800">
     <div class="container-max">
-      <div class="text-center pb-8" style="opacity: 1; transform: none;">
+      <div class="text-center pb-8">
         <h2 class="text-3xl sm:text-4xl font-bold text-gray-900 dark:text-white mb-4">Best Practices</h2>
         <p class="text-justify text-lg text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">
           I thought of 3 general solution strategies to handle pacing problems
@@ -37,8 +37,7 @@
       </div>
 
       <div class="space-y-8">
-        <div class="bg-white dark:bg-dark-700 rounded-lg p-6 shadow-sm hover:shadow-md transition-shadow"
-          style="opacity: 1; transform: none;">
+        <div class="bg-white dark:bg-dark-700 rounded-lg p-6 shadow-sm hover:shadow-md transition-shadow">
           <h4 class="font-semibold text-gray-900 dark:text-white mt-2 mb-2">Minimization: Front-Loading</h4>
           <div class="text-gray-600 dark:text-gray-300 mb-4">
             <p>Simmons claims that identifying the lesson's primary learning target is the most important because it

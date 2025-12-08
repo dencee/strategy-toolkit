@@ -5,7 +5,7 @@
 <template>
   <section id="problem" class="section-padding bg-gray-50 dark:bg-dark-800">
     <div class="container-max">
-      <div class="text-center mb-8" style="opacity: 1; transform: none;">
+      <div class="text-center mb-8">
         <h2 class="text-3xl sm:text-4xl font-bold text-gray-900 dark:text-white mb-4">The Problem of Pacing</h2>
         <p class="text-justify text-lg text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">
           You have it all planned out.
@@ -26,7 +26,7 @@
           frameborder="0" width="960" height="569"></iframe>
       </div>
       <div class="text-center">
-        <div style="opacity: 1; transform: none;">
+        <div>
           <h3 class="text-4xl font-bold text-gray-900 dark:text-white mb-6">What to do? 🤷</h3>
         </div>
       </div>
