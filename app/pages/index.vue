@@ -4,6 +4,7 @@ import Home from '@/view/Home.vue';
 import About from '@/view/About.vue';
 import BestPractices from '@/view/BestPractices.vue';
 import Resources from '@/view/Resources.vue';
+import Problem from '@/view/Problem.vue';
 </script>
 
 <template>
@@ -11,6 +12,7 @@ import Resources from '@/view/Resources.vue';
     <Header></Header>
     <main>
       <Home></Home>
+      <Problem></Problem>
       <BestPractices></BestPractices>
       <Resources></Resources>
       <About></About>

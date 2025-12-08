@@ -12,7 +12,4 @@ export default defineNuxtConfig({
   modules: [
     '@nuxtjs/tailwindcss',
   ],
-  // router: {
-  //   base: '/strategy-toolkit/'
-  // },
 })

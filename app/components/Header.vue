@@ -91,43 +91,20 @@ import { ref, onMounted, watch } from 'vue'
 
 const nav = [
   { label: 'Home', to: '#home' },
+  { label: 'Problem', to: '#problem' },
   { label: 'Best Practices', to: '#best-practices' },
   { label: 'Resources', to: '#resources' },
   { label: 'About', to: '#about' },
 ]
 
-const activeSection = ref('#hero');
-const isDark = ref(false);
+const activeSection = ref('#home');
 const isMobileMenuOpen = ref(false);
 
-const applyTheme = (dark) => {
-  const root = document.documentElement
-  if (dark) {
-    root.classList.add('dark')
-    localStorage.setItem('theme', 'dark')
-  } else {
-    root.classList.remove('dark')
-    localStorage.setItem('theme', 'light')
-  }
-}
-
-const toggleDark = () => {
-  isDark.value = !isDark.value
-}
+const { isDark, toggleDark, initTheme } = useTheme()
 
 // Only touch window/document on client
 onMounted(() => {
-  const saved = localStorage.getItem('theme')
-  if (saved === 'dark') {
-    isDark.value = true
-  } else if (saved === 'light') {
-    isDark.value = false
-  } else if (window.matchMedia &&
-    window.matchMedia('(prefers-color-scheme: dark)').matches) {
-    isDark.value = true
-  }
-
-  applyTheme(isDark.value)
+  initTheme()
 
   const observer = new IntersectionObserver(
     (entries) => {
@@ -138,16 +115,12 @@ onMounted(() => {
       })
     },
     {
-      threshold: 0.4, // adjust sensitivity
+      rootMargin: '-40% 0px -40% 0px',
     }
   )
 
   const sections = document.querySelectorAll('section[id]')
   sections.forEach((section) => observer.observe(section))
-})
-
-watch(isDark, (value) => {
-  applyTheme(value)
 })
 
 
