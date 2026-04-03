@@ -7,12 +7,12 @@
     <div class="container-max">
       <div class="text-center pb-8">
         <h2 class="text-3xl sm:text-4xl font-bold text-gray-900 dark:text-white mb-4">Best Practices</h2>
-        <p class="text-justify text-lg text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">
+        <p class="text-lg text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">
           I thought of 3 general solution strategies to handle pacing problems
         </p>
       </div>
       <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">
-        <StrategyCard title="Prevention" textColor="text-green-800 dark:text-green-200">
+        <StrategyCard title="Prevention" textColor="text-green-800 dark:text-green-500">
           <p>Modify lesson plan</p>
           <ul class="list-disc list-inside pl-6 -indent-6">
             <li>Reduce lesson volume</li>
@@ -20,14 +20,14 @@
             <li>Improve lesson quality</li>
           </ul>
         </StrategyCard>
-        <StrategyCard title="Minimize Impact" textColor="text-red-800 dark:text-red-200">
+        <StrategyCard title="Minimize Impact" textColor="text-red-800 dark:text-red-500">
           <p>Front-load lessons</p>
           <ul class="list-disc list-inside pl-6 -indent-6">
             <li>Most important things first</li>
             <li>Less important things last</li>
           </ul>
         </StrategyCard>
-        <StrategyCard title="Problem Handling" textColor="text-blue-800 dark:text-blue-200">
+        <StrategyCard title="Problem Handling" textColor="text-blue-800 dark:text-blue-500">
           <p>Modify lesson delivery</p>
           <ul class="list-disc list-inside pl-6 -indent-6">
             <li>Set/Use a timer</li>
@@ -39,7 +39,7 @@
       <div class="space-y-8">
         <div class="bg-white dark:bg-dark-700 rounded-lg p-6 shadow-sm hover:shadow-md transition-shadow">
           <h4 class="font-semibold text-gray-900 dark:text-white mt-4 mb-2">
-            <span class="text-blue-800 dark:text-blue-200 font-bold">Problem Handling</span>:
+            <span class="text-blue-800 dark:text-blue-500 font-bold">Problem Handling</span>:
             Read your Audience and Adjust
           </h4>
           <p>
@@ -51,7 +51,7 @@
             Development (ZPD), which is where students are able to learn most effectively.
           </p>
           <h4 class="font-semibold text-gray-900 dark:text-white mt-2 mb-2">
-            <span class="text-red-800 dark:text-red-200 font-bold">Minimization:</span>
+            <span class="text-red-800 dark:text-red-500 font-bold">Minimization:</span>
             Front-Loading
           </h4>
           <p>Simmons claims that identifying the lesson's primary learning target is the most important because it
@@ -61,7 +61,7 @@
             they will not critically impact the main goal of the lesson.
           </p>          
           <h4 class="font-semibold text-gray-900 dark:text-white mt-4 mb-2">
-            <span class="text-green-800 dark:text-green-200 font-bold">Prevention</span>:
+            <span class="text-green-800 dark:text-green-500 font-bold">Prevention</span>:
             Chunking to Reduce Cognitive Load
           </h4>
           <p>
@@ -73,8 +73,8 @@
             retain because of limited working memory.
           </p>
           <h4 class="font-semibold text-gray-900 dark:text-white mt-4 mb-2">
-            <span class="text-green-800 dark:text-green-200 font-bold">Prevention</span> and
-            <span class="text-red-800 dark:text-red-200 font-bold">Minimization:</span>
+            <span class="text-green-800 dark:text-green-500 font-bold">Prevention</span> and
+            <span class="text-red-800 dark:text-red-500 font-bold">Minimization:</span>
             Cognitive Load and Lesson Volume
           </h4>
           <p>
@@ -91,4 +91,6 @@
   </section>
 </template>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+
+</style>
